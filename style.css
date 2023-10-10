@@ -1,0 +1,227 @@
+/*-------------------Navbar-------------------*/
+.border-left-narrow {
+        border-left: 2px solid #ccc; /* Ajustez la largeur et la couleur selon vos préférences */
+    }
+.border-left-yellow {
+    border-left: 2px solid #fcb900;
+
+}
+
+#nav-bar{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    color: #111;
+    padding-top: 40px;
+    padding-bottom:0px;
+    background-color:rgb(238,238,238);
+    width: 100vw;
+}
+
+.navbar-nav a:hover{
+border-bottom:2px solid #fcb900;
+border-top: 2px solid #fcb900;
+}
+
+.navbar-nav li{
+    padding: 0px;
+}
+.navbar-nav li a{
+    opacity: 0.5;
+    color: #111 !important;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 22px;
+}
+.navbar-nav li .btn {
+    margin-right: 90px;
+}
+    /*-------------------------------------------Accueil--------*/
+    .section1{
+        padding: 70px;
+        background: url(images/coin-afrique-hero-image.jpg);
+        background-repeat: no-repeat;
+    }
+    .section1 img{
+    width:600px;
+    margin-left: -110px;
+    }
+    .section1 h1{margin-bottom: 80px;}
+    .section1 h4{margin-bottom: 150px;}
+    .section1 .btn{
+        border-radius:35px;
+        padding: 25px;
+        margin-left: 10px;
+    }
+    .section2{font-size: 9px;}
+    .page-section{
+        background-color:#fcb900;
+    }
+    footer img{width: 150px;}
+    footer textarea{
+        border: #fcb900 solid 2px;
+    }
+    /*---------------------------------A propos-----------------------------*/
+    .about h1 {
+        background-image: url('images/banner-apropos.jpg'); 
+        background-size: cover;
+        background-position: center;
+        color: #111; 
+        padding: 90px ;
+        padding-top: 170px;
+        color: #fff;
+    }
+.about p{
+    padding-left:80px;
+    padding-right: 80px;
+    text-align: start;
+}
+    
+    .text-left {
+        text-align: left;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+.propos{
+    color: #ff6900;
+    margin-top: 25px;
+}
+/*--------------------------------Tutoriels--------------------------*/
+/* .tutoriels h1 {
+    background-image: url('banner-apropos (1).jpg'); 
+    background-image: url('banner-presse.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #111; 
+    padding: 90px ;
+    padding-top: 170px;
+    color: #fff;
+
+} */
+
+#tutoriels{
+    background-image: url(images/banner-tutoriels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20%;
+    margin-top: 8%;
+    color: white;
+}
+
+#vente span{
+    color: #fcb900;
+}
+/*------------------------------Blocs-----------------------*/
+.option a{color: #111;}
+.option a {
+    color: #333; 
+    transition: color 0.3s ease; 
+}
+
+.option a:hover {
+    color:#fcb900; 
+}
+
+/*------------------------------Bloc----------------------*/
+
+.Bloc h1 {
+    background-image: url('images/banner-blog.jpg'); 
+    background-size: cover;
+    margin-top: 80px;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    padding-left: 120px;
+}
+/*-------------------------------Presse-----------------------------------------*/
+.Presse h1 {
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+    color: #111; 
+    padding: 100px 0;
+    color: #fff;
+    padding-left: 50px;
+}
+.presse h1 {
+    background-image: url('images/banner-presse.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #111; 
+    padding: 90px ;
+    padding-top: 170px;
+    color: #fff;
+}
+
+
+/*-------------------------------------------Accueil--------*/
+    .section1{
+        padding: 70px;
+        /* background: url(fond.jpg); */
+        background-repeat: no-repeat;
+    }
+    .section1 img{
+    width:600px;
+    margin-left: -110px;
+    }
+    .section1 h1{margin-bottom: 80px;}
+    .section1 h4{margin-bottom: 150px;}
+    .section1 .btn{
+        border-radius:35px;
+        padding: 15px;
+        margin-left: 10px;
+        margin-bottom: 3%;
+    }
+    .section2{font-size: 9px;}
+    .page-section{
+        background-color:#fcb900;
+    }
+    footer img{width: 150px;}
+    footer textarea{
+        border: #fcb900 solid 2px;
+    }
+
+    /*---------------------contact----------------*/
+.contact h1 {
+    background-image: url('images/banner-contact.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+.contact{
+    background-color: rgb(238,238,238);
+}
+.contact h3{
+    margin-left: 90px;
+}
+.contact select{
+    width: 47%;
+    padding: 9px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+.contact input{
+    border-radius: 10px;margin-left: 7px;
+    width: 105%;
+    padding:23px;
+    margin-left: 90px;
+}
+.contact textarea{
+    margin-left: 110px;
+}
+
+
+.contact #pays{
+    background-color: white;
+    border: none;
+    color: gray;
+}
+
+.contact #map{
+    margin-left: 110px;
+}
