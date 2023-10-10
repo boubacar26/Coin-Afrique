@@ -29,6 +29,13 @@
         margin-left: 0;
     }
 
+    .contact form button{
+        float: none;
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+    
+
     .about p{
         padding-left: 10px;
         padding-right: 0;
@@ -84,6 +91,21 @@
     #carte .carte3{
         width: 84%;
         margin-left: 8%;
+    }
+
+    #portfolio .portfolio-item{
+        width: 95%;
+        margin: auto;
+    }
+
+    #vente .col-md-6{
+        width: 95%;
+        margin: auto;
+    }
+
+    #blog .test{
+        width: 95%;
+        margin: auto;
     }
 
 
