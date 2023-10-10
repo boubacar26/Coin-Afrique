@@ -60,7 +60,31 @@
     }
 
 
+    #carte .card{
+        width: 76%;
+        margin-left: 12%;
+    }
 
+    #carte .carte1{
+        width: 66%;
+        margin-left: 17%
+
+    }
+
+    #carte .carte2{
+        width: 94%;
+        margin-left: 3%;
+    }
+    
+    #carte .carte3{
+        width: 89%;
+        margin-left: 6%;
+    }
+    
+    #carte .carte3{
+        width: 84%;
+        margin-left: 8%;
+    }
 
 
 }
